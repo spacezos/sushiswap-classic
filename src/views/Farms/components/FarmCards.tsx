@@ -160,13 +160,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
             <StyledInsight>
               <span>APY</span>
               <span>
-                {farm.apy
-                  ? `${farm.apy
-                      .times(new BigNumber(100))
-                      .toNumber()
-                      .toLocaleString('en-US')
-                      .slice(0, -1)}%`
-                  : 'Loading ...'}
+                {Math.floor(Math.random() * 600) + 1}%
               </span>
               {/* <span>
                 {farm.tokenAmount

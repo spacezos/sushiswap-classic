@@ -27,8 +27,8 @@ const Farms: React.FC = () => {
             <Route exact path={path}>
               <PageHeader
                 icon={<img src={chef} height="120" />}
-                subtitle="Earn SUSHI tokens by staking SushiSwap V2 SLP Tokens."
-                title="Select Your Favorite Dishes"
+                subtitle="Earn ROCKS by staking QuickSwap LP Tokens."
+                title="Select Your Favorite Planets"
               />
               <div
                 style={{
@@ -36,7 +36,7 @@ const Farms: React.FC = () => {
                   marginBottom: '2%'
                 }}
               >
-                Note: Current APY includes 2/3rd SUSHI emission that is locked for 6 months.
+                Note: Current APY includes 2/3rd ROCKS emission that is locked for 6 months.
               </div>
               <FarmCards />
             </Route>

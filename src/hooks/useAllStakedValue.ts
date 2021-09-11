@@ -32,6 +32,8 @@ const useAllStakedValue = () => {
   const block = useBlock()
 
   const fetchAllStakedValue = useCallback(async () => {
+
+    
     const balances: Array<StakedValue> = await Promise.all(
       farms.map(
         ({

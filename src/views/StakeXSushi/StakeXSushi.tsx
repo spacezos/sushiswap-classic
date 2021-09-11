@@ -17,7 +17,7 @@ const StakeXSushi: React.FC = () => {
   const {
     tokenAddress,
   } = {
-    tokenAddress: contractAddresses.xSushi[1],
+    tokenAddress: contractAddresses.xSushi[137],
   }
 
   const [totalSupply, setTotalSupply] = useState<BigNumber>()
@@ -61,18 +61,6 @@ const StakeXSushi: React.FC = () => {
             />
           </StyledCardWrapper>
         </StyledCardsWrapper>
-        <Spacer size="lg"/>
-        <StyledCardsWrapper>
-          <StyledCardWrapper>
-            <StyledInfo>
-              ℹ️️ You will earn a portion of the swaps fees based on the amount
-              of xSushi held relative the weight of the staking. xSushi can be minted
-              by staking Sushi. To redeem Sushi staked plus swap fees convert xSushi
-              back to Sushi. {totalSupply ? `There are currently ${getBalanceNumber(totalSupply)} xSUSHI in existence.` : '' }
-            </StyledInfo>
-          </StyledCardWrapper>
-        </StyledCardsWrapper>
-        <Spacer size="lg"/>
       </StyledFarm>
     </>
   )

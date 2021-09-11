@@ -27,7 +27,7 @@ const StakeSushi: React.FC<StakeProps> = ({}) => {
   const allowance = useAllowanceStaking()
   const {onApprove} = useApproveStaking()
 
-  const tokenBalance = useTokenBalance(contractAddresses.sushi[1])
+  const tokenBalance = useTokenBalance(contractAddresses.sushi[137])
 
   const {onEnter} = useEnter()
   const {onLeave} = useLeave()
@@ -60,7 +60,7 @@ const StakeSushi: React.FC<StakeProps> = ({}) => {
           <StyledCardHeader>
             <CardIcon>👨🏻‍🍳</CardIcon>
             <Value value={getBalanceNumber(tokenBalance)}/>
-            <Label text={`SUSHI Tokens Available`}/>
+            <Label text={`ROCKS Tokens Available`}/>
           </StyledCardHeader>
           <StyledCardActions>
             {!allowance.toNumber() ? (
@@ -73,7 +73,7 @@ const StakeSushi: React.FC<StakeProps> = ({}) => {
               <>
                 <Button
                   disabled={tokenBalance.eq(new BigNumber(0))}
-                  text="Convert to xSUSHI"
+                  text="Convert to xRocks"
                   onClick={onPresentDeposit}
                 />
                 <StyledActionSpacer/>

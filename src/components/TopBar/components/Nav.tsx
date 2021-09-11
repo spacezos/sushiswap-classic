@@ -11,29 +11,18 @@ const Nav: React.FC = () => {
       <StyledLink exact activeClassName="active" to="/farms">
         Menu
       </StyledLink>
-      <StyledLink exact activeClassName="active" to="/staking">
-        Staking
-      </StyledLink>
       <StyledAbsoluteLink
-        href="https://sushiswap.fi/"
-        target="_blank"
+        href="#"
       >
-        SushiSwap Fi
+        Staking (soon)
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://lite.sushiswap.fi/#/swap"
-        target="_blank"
+        href="#"
       >
-        SushiSwap Lite
+        Exchange (soon)
       </StyledAbsoluteLink>
       <StyledAbsoluteLink
-        href="https://exchange.sushiswapclassic.org"
-        target="_blank"
-      >
-        Exchange
-      </StyledAbsoluteLink>
-      <StyledAbsoluteLink
-        href="https://docs.sushiswap.fi/"
+        href="https://t.me/joinchat/z1L6aQ7w3XZmM2U0"
         target="_blank"
       >
         Help

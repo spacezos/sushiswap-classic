@@ -8,7 +8,7 @@ const Nav: React.FC = () => {
         target="_blank"
         href="https://etherscan.io/address/0xc2edad668740f1aa35e4d8f227fb8e17dca888cd#code"
       >
-        MasterChef Contract
+        SpaceStation Contract
       </StyledLink>
       {/*<StyledLink
         target="_blank"
@@ -16,17 +16,14 @@ const Nav: React.FC = () => {
       >
         SushiSwap SUSHI-ETH
       </StyledLink> */}
-      <StyledLink target="_blank" href="https://discord.gg/sqhXAqc">
+      <StyledLink target="_blank" href="https://discord.com/invite/polygon">
         Discord
       </StyledLink>
-      <StyledLink target="_blank" href="https://github.com/sushiswap">
+      <StyledLink target="_blank" href="https://github.com/0xPolygon">
         Github
       </StyledLink>
-      <StyledLink target="_blank" href="https://twitter.com/sushiswap">
+      <StyledLink target="_blank" href="https://twitter.com/0xPolygon">
         Twitter
-      </StyledLink>
-      <StyledLink target="_blank" href="https://medium.com/@sushiswapchef">
-        Medium
       </StyledLink>
     </StyledNav>
   )

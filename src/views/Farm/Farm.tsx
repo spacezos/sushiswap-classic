@@ -87,12 +87,6 @@ const Farm: React.FC = () => {
         >
           {lpTokenName} Info
         </StyledLink>
-        <StyledLink
-          target="__blank"
-          href={`https://lite.sushiswap.fi/#/migrate`}
-        >
-          UNI to SLP 1 Click Migration
-        </StyledLink>
       </StyledFarm>
     </>
   )
